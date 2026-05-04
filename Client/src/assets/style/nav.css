@@ -1,0 +1,50 @@
+.nav{
+    background-color: #A6A6A6;
+    position: sticky;
+    top: 25px;
+    left: 20px;
+    right: 20px;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav h1{
+    color: #260401;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0 10px 100px;
+    text-transform: uppercase;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+}
+.login-btn{
+    background-color: #593122;
+    color: #A6A6A6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 20px 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.userprofile{
+    border: black 2px solid;
+    border-radius: 50%;
+    margin: 5px 50px 4px 0;
+    height: 50px;
+    width: 49px;
+
+}
+.userprofile img{
+    height: 45px;
+    width: 45px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}

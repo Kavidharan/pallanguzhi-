@@ -1,0 +1,105 @@
+.gameContainer {
+    margin-top: 30px;
+}
+.player-Red{
+    color: rgba(255, 0, 0, 0.644);
+}
+.player-Blue{
+    color: rgba(0, 0, 255, 0.753);
+}
+.gameContainer h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 8px;
+    position: relative;
+}
+.game{
+    background-image: url('../images/pallanguzhi.png');
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 450px;
+    margin-left: 220px;
+    margin-bottom: -30px;
+    transform: rotate(-0.7deg);
+    position: relative;
+}
+.game ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: absolute;
+    list-style-type: none;
+    gap: 10px;
+    top: 52px;
+    left: 56px;
+    transform: rotate(0.7deg);
+}
+.game ul li{
+    width: 130px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: linear 0.5s ;
+}
+.game img{
+    width: 130px;
+    height: 130px;
+}
+.game li button{
+    background: transparent;
+    border: none;
+}
+.red{
+    display: flex;
+    flex-direction: column;
+    margin-top: -22px;
+    gap: 20px;
+    color: rgba(255, 0, 0, 0.644);
+}
+.blue{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+    gap: 20px;
+    color: rgba(0, 0, 255, 0.753);
+}
+.move label{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #260401;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.condiniue{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+}   
+.condiniue button ,.gameOver button{
+    display: none;
+    background-color: #260401;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.gameOver{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    z-index: 3;
+}
+.gameOver a{
+    text-decoration: none;
+    color: white;
+}

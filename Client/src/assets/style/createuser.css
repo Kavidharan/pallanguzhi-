@@ -1,0 +1,54 @@
+.createuser{
+    margin: 40px 0 0 450px;
+    width: 430px;
+    height: 530px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 10px 10px 10px ;
+}
+.createuser form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 60px ;
+}
+.createuser input{
+    margin-bottom: 5px;
+    height: 35px;
+    padding: 5px;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    font-size: 16px;
+}
+.createuser form .button{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.createuser label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.createuser button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+.createuser .button .clear{
+    background-color: rgb(228, 26, 26);
+}
+.createuser .button .create{
+    background-color: rgb(13, 155, 13);
+}
+.createuser h1{
+    text-align: center;
+    margin-bottom: 30px;
+}

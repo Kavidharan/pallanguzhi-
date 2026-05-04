@@ -1,0 +1,26 @@
+.play{
+    margin-top: 200px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+    height: 200px;
+}
+.play button{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #593122;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.play a{
+    text-decoration: none;
+    color: white;
+}
+.play button:hover{
+    background-color: #7a4b2c;
+}
